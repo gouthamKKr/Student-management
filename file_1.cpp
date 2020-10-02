@@ -21,6 +21,7 @@ int programmenu()
 {   
 	clrscr();
 	int mc;
+	cout<<"\tSTUDENT MANAGEMENT\n";
 	cout<<"\n............................";
 	cout<<"\n:                          :";
 	cout<<"\n:    1. Fee menu           :";
@@ -28,7 +29,7 @@ int programmenu()
 	cout<<"\n:    3. EXIT               :";
 	cout<<"\n:                          :";
 	cout<<"\n:..........................:";
-	cout<<"\n\nEnter your choice";
+	cout<<"\n\nEnter your choice\n";
 	cin>>mc;
 	return mc;
 }
@@ -50,7 +51,7 @@ class student
 		cout<<"stream :"; gets(stream);
 		if(strcmpi(stream,"commerce")==0)
 		{
-			cout<<"\nEnter the substream(IP/EP/Maths)";
+			cout<<"\nEnter the substream(IP/EP/Maths)\n";
 			cin>>substream;
 			if(strcmpi(substream,"IP")==0)
 			strcat(stream,"-IP");
