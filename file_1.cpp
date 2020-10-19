@@ -5,6 +5,7 @@
 #include<ctype.h>
 #include<string.h>
 #include<dos.h>
+#include<math.h>
 
 void getfee1();
 void changefee1();
@@ -72,7 +73,7 @@ class student
 	}
 
 
-	int  retadmno()      {return admno;}			//
+	int  retadmno()      {return admno;}			//function retadmno is called
 	char* retname()       {return name;}
 	char* retstream()     {return stream;}
 };
